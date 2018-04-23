@@ -1,5 +1,0 @@
-## Start
-
-```bash
-npm start
-```
