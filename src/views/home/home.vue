@@ -75,13 +75,6 @@ export default {
       ]
     }
   },
-  created() {
-    this.debug(this, 1, 2,3)
-    this.info(1, 2 ,3)
-    this.error(3)
-    this.warn(4)
-    console.log(1)
-  },
   watch: {
     lang(val) {
       this.$i18n.locale = val
